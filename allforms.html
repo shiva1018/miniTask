@@ -1,0 +1,69 @@
+<!Doctype html>
+
+<html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, intial-scale=0">
+        <link rel="stylesheet" href="input.css">
+        </head>
+        <body>
+            
+            <div class="nice">
+                <h2>ALL INPUT TYPE</h2>
+            <form>
+                <label for="firstname" >FirstName:</label><br>
+                <input id="firstname" name="name" placeholder="Enter your FirstName" required ><br>
+                <label for="lastname" >LastName:</label><br>
+                <input id="lastname" name="lastname" placeholder="please Enter your Lastname"required><br>
+                <label for="age">Age:</label> <br>
+                <input type="number" id="age" name="age" placeholder="enter age" ><br>
+                <label for="gmail">Gmail:</label> <br>
+                
+                <input type="mail" id="gmail" name="gmail" placeholder="eg:abc@gmail.com"required><br>
+                <label for="add">Address:</label><br>
+                <textarea id="add" name="add" cols="14" rows="12"></textarea><br>
+                <label for="phone">Mobile Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+                <label for="birth">DOB:</label><br>
+                <input type="date" name="birth"><br>
+                <label for="color">Select your favorite color</label><br>
+                <input type="color" name="color"><br>
+                <label for="username">Username:</label><br>
+                <input id="user" name="username" type="text" placeholder="choose a user name"required><br>
+               <label for="password">Password</label><br>
+               <input id="password" name="password" type="password" placeholder="create a password" pattern="[A-Z]" maxlength="8" required><br>
+                <h3>Hobbies:</h3>
+                <input type="checkbox" id="hobbies" name="hobbies" >
+                <label for="hobbies">Playing online games</label><br>
+                <input type="checkbox" id="hobbies1" name="hobbies" >
+                <label for="hobbies1" >Reading books</label><br>
+                <input type="checkbox" id="hobbies2" name="hobbies">
+                <label for="hobbies2" >Dance</label>
+                <H3>Please select your favorite Web language:</H3>
+                <input type="radio" id="HTML" name="fav-lanuage" >
+                <label for="HTML" >HTML</label><br>
+                <input type="radio" id="CSS" name="fav-lanuage"  >
+                <label for="CSS" >CSS</label><br>
+                <input type="radio" id="JAVA" name="fav-lanuage"  >
+                <label for="JAVA" >JAVA</label><br>
+                <label for="fav-places"><h4>choose a favorite:</h4>choose a favorite place</label>
+               
+                <select id="fav-places">
+            <option value="HYD" selected>HYD</option>
+              <option value="Agra" >AGRA</option>
+                 <option value="mumbai" >MUMBAI</option>
+                <option value="Himachal pradesh" >HIMACHAL PRADESH</option>
+                <option value="NEW DElHI" >NEW DElHI</option>
+             </select><br>
+               <input type="button"  id="view" onclick="alert('check your form')" value="click me"><br>
+                <button class="submit">submit</button>  
+                <label for="submit-time">SubmitTime</label>
+                <input id="submit" name="submit-time" type="time">
+              </form>
+    
+                
+
+        </div>
+        </body>
+        </html>

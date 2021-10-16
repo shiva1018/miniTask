@@ -1,0 +1,8 @@
+.my {
+    list-style: circle;
+    
+}
+.my2{
+    list-style:lower-alpha;
+    /* margin:0px; */
+}

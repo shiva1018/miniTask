@@ -1,0 +1,37 @@
+.cont {
+    text-decoration: rgb(42, 95, 165);
+    height: 25rem;
+    width: 30rem;
+    margin: 1px;
+    
+
+    /* text-align: center; */
+   
+    font-family:'Slabo 27px', serif;
+    background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.cont> h2{
+    text-transform: uppercase;
+}
+#name{
+    /* text-align: center; */
+    display: flex;
+    resize: none;
+    font-family:'Slabo 27px', serif;
+   border-radius: 3px;
+   padding: 10px;
+   margin: 3px;
+   color: brown;
+   max-width: 30rem;
+   margin-right: auto;
+   margin-left:auto ;
+}
+.name2{
+    width:180px;
+
+    color: crimson;
+}
+   
+body{
+    text-align: center;
+}

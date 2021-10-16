@@ -1,0 +1,69 @@
+.form{
+    /* text-align: center; */
+    width: 900px;
+    border: 2px solid black;
+     padding-left: 5px;
+    padding-right: 5px; 
+    height: 500px;
+    /* border-top: 0px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form > h2{
+    background-color: red;
+    border: 0.5px solid red;
+     padding: 5px; 
+     text-align: center;
+}
+.sname{
+    position: relative;
+   text-align: center;
+    left: 350px;
+    top:-40px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    /* width:30%; */
+}
+.zname{
+    position: relative;
+    font-family: 'Ephesis', cursive;
+    text-align: center;
+    left: 700px;
+    top:-80px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+/* input> .sname{
+    border-top: 0px;
+} */
+.firstname{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width:30%; 
+    text-align: center;
+  /* font-family: 'Festive', cursive;; */
+  font-family: 'Ephesis', cursive
+}
+.cname{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width:30%;
+    text-align: center;
+    font-family: 'Ephesis', cursive
+    /* border: 1px; */
+    
+}
+.mname{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 50%;
+    font-family: 'Ephesis', cursive
+   
+}
+.user-input{
+    margin-top:0px;
+}
